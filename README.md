@@ -9,7 +9,7 @@ Setup modules in `main.tf`:
 ```terraform
 module myip {
   source  = "4ops/myip/http"
-  version = "1.0.0"
+  version = "1.1.0"
 }
 
 resource aws_security_group allow_ssh {
